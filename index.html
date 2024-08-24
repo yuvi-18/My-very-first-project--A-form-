@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<body>
+<h1 id="title">Shortern It Survey Form</h1>
+<p id="description">Thank you for giving us your time to help make our project even better.</p>
+<hr>
+<div class="container">
+<form id="survey-form" class="survey-form">
+  <label id="name-label" class="name">Name</label>
+  <input required id="name" type="text" placeholder="Enter your Name..." >
+  <label id="email-label">Email</label><input required id="email" type="email" placeholder="Enter your Email...">
+  <label id="number-label">Age</label><input id="number" type="number" min="13" max="80" placeholder="Age" value="age">
+  What explains you the best?
+ <fieldset class="fieldset"><select id="dropdown">
+    <option name="radio" type="radio" value="proffesion">Student
+    </option>
+     <option name="radio" type="radio" vlue="proffesion">Adult</option>
+      </select></fieldset>
+<legend></legend>What is your feedback for our services?
+<fieldset class="fieldset">
+  <input name="radio" type="radio" value="feedback" class="radio">happy
+    <input name="radio" type="radio" value="feedback" class="radio">Not Happy</select>
+    </fieldset>
+    <legend>Would you like to continue our services?</legend>
+    <fieldset class="fieldset"> <input class="chac" type="checkbox" value="feedback">Definetly
+    <input class="chac" type="checkbox" value="feedback">Notsure
+    </fieldset>
+    What are your views on this project?</legend> 
+    <textarea placeholder="Comment..." rows="5" cols="35" value="textarea"></textarea>
+    <input id="submit" type="submit" class="submit">
+</form>
+</div>
+ <hr>
+</body>
